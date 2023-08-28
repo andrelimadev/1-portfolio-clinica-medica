@@ -1,0 +1,134 @@
+.divisao-menu-lista {
+    width: 500px;
+    margin-top: 40px;
+}
+
+.divisao-menu {
+    border-top: 1px solid #d5d5d5;
+}
+
+.menu-lista {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.menu-lista a {
+    text-decoration: none;
+    border-bottom: 2px solid #00CAD1;
+}
+
+.menu-lista a:hover {
+    color: #a5a5a5;
+    border-bottom: 2px solid #585858;
+}
+
+.divisao-menu-titulo {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 10px;
+}
+
+.especialidade-tabela {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 60px 20px 40px;
+}
+
+.especialidade-tabela img {
+    width: 240px;
+    object-fit: cover;
+}
+
+.especial {
+    width: 50%;
+    height: 100%;
+    border-spacing: 0;
+    text-align: left;
+}
+
+.especial thead tr {
+    background-color: #00CAD1;
+    color: #fff;
+}
+
+.especial tr {
+    background-color: #f1f1f1;
+    font-weight: 500;
+    color: #585858
+}
+
+.especial tbody tr:nth-of-type(odd) {
+    background-color: rgb(101, 227, 231);
+    border: 1px solid #f1f1f1;
+}
+
+.especial th, .especial td {
+    padding: 10px;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+
+    .especialidade-tabela img {
+        display: none;
+    }
+
+    .especial {
+        width: 70%;
+    }
+
+    .titulo p {
+        width: 600px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .especialidade-tabela img {
+        display: none;
+    }
+
+    .topo {
+        width: 100%;
+    }
+    
+    .limita {
+        width: 420px
+    }
+
+    .divisao-menu-titulo h1 {
+        font-size: 20px;
+    }
+
+    .titulo h2 {
+        font-size: 18px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .titulo p {
+        width: 380px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .especialidade-tabela {
+        padding: 30px 0;
+    }
+
+    .especial {
+        width: 380px;
+    }
+
+    .rodape-texto P {
+        width: 360px;
+    }
+
+}
