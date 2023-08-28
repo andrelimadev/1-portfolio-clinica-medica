@@ -1,5 +1,6 @@
 .divisao-menu-lista {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     margin-top: 40px;
 }
 
@@ -19,12 +20,12 @@
 
 .menu-lista a {
     text-decoration: none;
+    color: #a5a5a5;
     border-bottom: 2px solid #00CAD1;
 }
 
 .menu-lista a:hover {
-    color: #a5a5a5;
-    border-bottom: 2px solid #585858;
+    color: #585858;
 }
 
 .divisao-menu-titulo {
@@ -85,7 +86,8 @@
     }
 
     .titulo p {
-        width: 600px;
+        width: 100%;
+        max-width: 600px;
     }
 }
 
@@ -101,6 +103,17 @@
     
     .limita {
         width: 420px
+    }
+
+    .divisao-menu-lista {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 40px;
+    }
+
+    .menu-lista {
+        display: flex;
+        justify-content: left;
     }
 
     .divisao-menu-titulo h1 {
